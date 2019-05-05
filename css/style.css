@@ -1,7 +1,13 @@
-a {
-  font-style: italic;
+body {
+  margin: auto;
 }
 
+div {
+  padding: 5%;
+}
+#header {
+
+}
 #steam {
   background-color: #183e59;
   height: 100px;
