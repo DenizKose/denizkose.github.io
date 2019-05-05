@@ -5,14 +5,17 @@ a {
 #steam {
   background-color: #183e59;
   height: 100px;
+  color: #000;
 }
 
 #aliexpress {
   background-color: #ff5400;
   height: 100px;
+  color: #000;
 }
 
 #hobbyworld {
   background-color: #fca10b;
   height: 100px;
+  color: #fff;
 }
