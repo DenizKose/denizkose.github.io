@@ -1,5 +1,7 @@
 body {
   margin: auto;
+  list-style-type: none;
+  font-size: 12px;
 }
 
 div {
@@ -19,21 +21,31 @@ header_title {
   text-align: center;
   background-color: #000;
 }
+
 #steam {
   background-color: #183e59;
-  height: 100px;
+  color: #fff;
+}
+
+#steam a {
   color: #fff;
 }
 
 #aliexpress {
   background-color: #ff5400;
-  height: 100px;
+  color: #fff;
+}
+
+#aliexpress a{
   color: #fff;
 }
 
 #hobbyworld {
   background-color: #fca10b;
-  height: 100px;
+  color: #000;
+}
+
+#hobbyworld a{
   color: #000;
 }
 
