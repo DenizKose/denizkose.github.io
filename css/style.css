@@ -12,7 +12,8 @@ header_title {
 }
 
 #header {
-
+  text-align: center;
+  background-color: #000;
 }
 #steam {
   background-color: #183e59;
