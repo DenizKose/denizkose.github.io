@@ -6,6 +6,10 @@ div {
   padding: 5%;
 }
 
+ a {
+  text-decoration: none;
+}
+
 header_title {
   text-align: center;
   font-weight: bold;
@@ -39,6 +43,5 @@ header_title {
 }
 
 #footer a {
-  text-decoration: none;
   color: aquamarine;
 }
