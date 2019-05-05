@@ -1,3 +1,18 @@
 a {
   font-style: italic;
 }
+
+#steam div {
+  background-color: #183e59;
+  height: 100px;
+}
+
+#aliexpress div {
+  background-color: #ff5400;
+  height: 100px;
+}
+
+#hobbyworld div {
+  background-color: #fca10b;
+  height: 100px;
+}
