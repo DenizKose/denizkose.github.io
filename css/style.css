@@ -2,17 +2,17 @@ a {
   font-style: italic;
 }
 
-#steam div {
+#steam {
   background-color: #183e59;
   height: 100px;
 }
 
-#aliexpress div {
+#aliexpress {
   background-color: #ff5400;
   height: 100px;
 }
 
-#hobbyworld div {
+#hobbyworld {
   background-color: #fca10b;
   height: 100px;
 }
