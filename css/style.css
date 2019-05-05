@@ -6,7 +6,10 @@ div {
   padding: 5%;
 }
 
-
+header_title {
+  text-align: center;
+  font-weight: bold;
+}
 
 #header {
 
@@ -14,17 +17,22 @@ div {
 #steam {
   background-color: #183e59;
   height: 100px;
-  color: #000;
+  color: #fff;
 }
 
 #aliexpress {
   background-color: #ff5400;
   height: 100px;
-  color: #000;
+  color: #fff;
 }
 
 #hobbyworld {
   background-color: #fca10b;
   height: 100px;
-  color: #fff;
+  color: #000;
+}
+
+#footer {
+  background-color: #000;
+  text-align: center;
 }
