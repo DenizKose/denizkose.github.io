@@ -65,6 +65,6 @@ header_title {
   text-align: center;
 }
 
-#footer a {
-  color: aquamarine;
+#footer img {
+  padding: 10px;
 }
