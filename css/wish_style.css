@@ -1,0 +1,44 @@
+li {
+    list-style-type: none;
+   }
+div {
+  padding: 5%;
+}
+
+ a {
+  text-decoration: none;
+}
+
+span {
+  padding:10px;
+}
+
+#steam {
+  background-color: #183e59;
+  font-size: 2em;
+  color: #fff;
+}
+
+#steam a {
+  color: #fff;
+}
+
+#aliexpress {
+  background-color: #ff5400;
+  font-size: 2em;
+  color: #fff;
+}
+
+#aliexpress a{
+  color: #fff;
+}
+
+#hobbyworld {
+  background-color: #fca10b;
+  font-size: 2em;
+  color: #000;
+}
+
+#hobbyworld a{
+  color: #000;
+}
