@@ -3,7 +3,7 @@ body {
 
 }
 
-header_title {
+.header_title {
   text-align: center;
   font-weight: bold;
   background-color: #000;
