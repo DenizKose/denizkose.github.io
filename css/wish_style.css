@@ -1,44 +1,29 @@
-li {
-    list-style-type: none;
-   }
-div {
-  padding: 5%;
+.checked {
+  padding-right:10px;
+  color: #8bc34a;
 }
 
-a {
-  text-decoration: none;
+.unchecked {
+  padding-right:10px;
+  color: white;
 }
 
-span {
-  padding:10px;
+.logo {
+  padding-top: 10%;
+  text-align: center;
+}
+.logo img {
+  height: 64px;
 }
 
-#steam {
-  background-color: #183e59;
-  font-size: 2em;
-  color: #fff;
+.price {
+    color: #80c5d6;
+    margin-left: 2%;
+    text-decoration-color: aquamarine;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
-#steam a {
-  color: #fff;
-}
-
-#aliexpress {
-  background-color: #ff5400;
-  font-size: 2em;
-  color: #fff;
-}
-
-#aliexpress a{
-  color: #fff;
-}
-
-#hobbyworld {
-  background-color: #fca10b;
-  font-size: 2em;
-  color: #000;
-}
-
-#hobbyworld a{
-  color: #000;
+li{
+  padding-top: 10px;
 }
