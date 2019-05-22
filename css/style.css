@@ -41,6 +41,10 @@ nav a {
   font-style: normal;
 }
 
+article {
+  padding-left: 2%;
+  padding-right: 2%;
+}
 
 footer {
   text-align: center;
