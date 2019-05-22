@@ -8,6 +8,8 @@ body {
   color: #b8b8b8;
   width: 100%;
   max-width: 1000px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 a {
