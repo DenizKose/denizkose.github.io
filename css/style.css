@@ -28,12 +28,6 @@ header {
   font-size: 2em;
 }
 
-nav {
-  text-align: center;
-  border-top: 2px solid #b8b8b8;
-  border-bottom: 2px solid #b8b8b8;
-}
-
 nav a {
   font-weight: bold;
   font-size: 2em;
@@ -77,4 +71,54 @@ p {
 
 .welcome a {
   text-decoration: underline;
+}
+
+/** ========= Menu ========= **/
+.flexmenu {
+  border-top: 2px solid #b8b8b8;
+  border-bottom: 2px solid #b8b8b8;
+}
+.navmenu {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 700;
+	list-style: none;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+.navmenu > li {
+	margin: 0 5px;
+}
+.navmenu > li > a {
+	align-items: center;
+	display: flex;
+	padding: 5px 12px;
+	height: 30px;
+	justify-content: center;
+}
+
+/** ========= FlexMenu ========= **/
+
+.navmenu li.flexMenu-viewMore > a {
+	background: #E98519;
+	color: #fff;
+}
+.flexMenu-popup {
+	background: #30CFC7;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.flexMenu-popup li a {
+	color: #000;
+	display: block;
+	text-decoration: none;
+	padding: 5px 10px
+}
+.flexMenu-popup li a:hover {
+	background: #1DA79F;
+	color: #fff;
 }

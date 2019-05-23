@@ -3,12 +3,33 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Дениз Кёсе</title>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="flexmenu/modernizr.custom.js"></script>
+<script src="flexmenu/flexmenu.min.js"></script>
+  <script>
+  jQuery(document).ready(function($){
+    $('ul.navmenu').flexMenu({
+        showOnHover: false,
+        linkText: "Еще...",
+        linkTitle: "Показать еще",
+        linkTextAll: "Меню",
+        linkTitleAll: "Развернуть меню",
+        popupClass: 'more_dropdown'
+    });
+});
+</script>
 </head>
 <body>
   <header>
   <h1>Deniz Köse</h1>
   </header>
-  <nav> <a href="wishlist.html">Список желаний</a> <span class="razdel">|</span> <a href="https://www.2ch.hk">Мое пристанище</a> <span class="razdel">|</span> <a href="moya_zhizn.html">Моя жизнь</a> </nav>
+    <nav class="flexmenu">
+        <ul class="navmenu">
+            <li><a href="wishlist.html">Список желаний</a> </li>
+            <li><a href="https://www.2ch.hk">Мое пристанище</a></li>
+            <li><a href="moya_zhizn.html">Моя жизнь</a></li>
+        </ul>
+    </nav>
   <article class="welcome">
     <h2>Добро пожаловать!</h2>
     <p>Рад вас видеть на моем околосайте. Здесь вы сможете найти ничего. Можете купить мне что-нибудь, для этого перейдите по ссылке в верху "Список желаний" или нажмите <a href="wishlist.html">сюда</a>. </p>
