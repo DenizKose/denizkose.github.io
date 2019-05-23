@@ -103,11 +103,11 @@ p {
 /** ========= FlexMenu ========= **/
 
 .navmenu li.flexMenu-viewMore > a {
-	background: #E98519;
-	color: #fff;
+  background: #b8b8b8;
+  color: #101010;
 }
 .flexMenu-popup {
-	background: #30CFC7;
+	background: #b8b8b8;
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -119,6 +119,6 @@ p {
 	padding: 5px 10px
 }
 .flexMenu-popup li a:hover {
-	background: #1DA79F;
-	color: #fff;
+  background: #101010;
+  color: #b8b8b8;
 }
