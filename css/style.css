@@ -104,6 +104,9 @@ li{
   padding-top: 10px;
 }
 
+.ricardo img {
+  width: 450px; 
+}
 @media (min-width: 500px ) and (max-device-width: 700px) {
 
   a{
@@ -128,11 +131,19 @@ li{
     margin-bottom: 5%;
   }
 
-  p,h2 {
+  h2 {
     font-size: 3.4em;
+  }
+
+  p {
+    font-size: 3em;
   }
 
   .logo img {
     height: 200px;
+  }
+
+  .ricardo img {
+    width: -webkit-fill-available;
   }
 }
