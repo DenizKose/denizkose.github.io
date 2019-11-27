@@ -7,7 +7,6 @@ body {
   background-color: #101010;
   color: #b8b8b8;
   width: 100%;
-  max-width: 1000px;
   padding-left: 2%;
   padding-right: 2%;
 }
@@ -102,4 +101,8 @@ p {
 
 li{
   padding-top: 10px;
+}
+
+@media (min-width: 300px) {
+
 }
