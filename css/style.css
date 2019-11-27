@@ -7,6 +7,7 @@ body {
   background-color: #101010;
   color: #b8b8b8;
   width: 100%;
+  max-width: 900px;
   padding-left: 2%;
   padding-right: 2%;
 }
@@ -88,7 +89,7 @@ p {
   text-align: center;
 }
 .logo img {
-  height: 64px;
+  height: 128px;
 }
 
 .price {
@@ -103,6 +104,35 @@ li{
   padding-top: 10px;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 500px ) and (max-device-width: 700px) {
 
+  a{
+    font-size: 4em;
+  }
+  .price {
+      font-size: 4em;
+  }
+  .checked {
+    font-size: 4em;
+  }
+
+  .unchecked {
+    font-size: 4em;
+  }
+
+  .keked {
+    font-size: 1em;
+  }
+
+  li{
+    margin-bottom: 5%;
+  }
+
+  p,h2 {
+    font-size: 3.4em;
+  }
+
+  .logo img {
+    height: 200px;
+  }
 }
