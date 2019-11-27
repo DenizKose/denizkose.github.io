@@ -73,52 +73,32 @@ p {
   text-decoration: underline;
 }
 
-/** ========= Menu ========= **/
-.flexmenu {
-  border-top: 2px solid #b8b8b8;
-  border-bottom: 2px solid #b8b8b8;
-}
-.navmenu {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	font-size: 14px;
-	font-weight: 700;
-	list-style: none;
-	justify-content: center;
-	padding: 0;
-	margin: 0;
-}
-.navmenu > li {
-	margin: 0 5px;
-}
-.navmenu > li > a {
-	align-items: center;
-	display: flex;
-	padding: 5px 12px;
-	height: 30px;
-	justify-content: center;
+.checked {
+  padding-right: 3%;
+  color: #8bc34a;
 }
 
-/** ========= FlexMenu ========= **/
+.unchecked {
+  padding-right: 3%;
+  color: white;
+}
 
-.navmenu li.flexMenu-viewMore > a {
-  background: #b8b8b8;
-  color: #101010;
+.logo {
+  padding-top: 10%;
+  text-align: center;
 }
-.flexMenu-popup {
-	background: #b8b8b8;
-	list-style: none;
-	padding: 0;
-	margin: 0;
+.logo img {
+  height: 64px;
 }
-.flexMenu-popup li a {
-	color: #000;
-	display: block;
-	text-decoration: none;
-	padding: 5px 10px
+
+.price {
+    color: #80c5d6;
+    margin-left: 2%;
+    text-decoration-color: aquamarine;
+    font-weight: bold;
+    font-family: sans-serif;
 }
-.flexMenu-popup li a:hover {
-  background: #101010;
-  color: #b8b8b8;
+
+li{
+  padding-top: 10px;
 }
