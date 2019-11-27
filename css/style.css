@@ -105,7 +105,7 @@ li{
 }
 
 .ricardo img {
-  width: 450px; 
+  width: 450px;
 }
 @media (min-width: 500px ) and (max-device-width: 700px) {
 
@@ -144,6 +144,6 @@ li{
   }
 
   .ricardo img {
-    width: -webkit-fill-available;
+    width: 450px;
   }
 }
